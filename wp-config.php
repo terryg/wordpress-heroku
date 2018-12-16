@@ -18,6 +18,12 @@
  * @package WordPress
  */
 
+define( 'AS3CF_SETTINGS', serialize( array(
+    'provider' => 'aws',
+    'access-key-id' => getenv('AWS_ACCESS_KEY_ID'),
+    'secret-access-key' => getenv('AWS_SECRET_ACCESS_KEY'),
+) ) );
+
 $url = parse_url(getenv('CLEARDB_DATABASE_URL'));
 
 // ** MySQL settings - You can get this info from your web host ** //
