@@ -2,9 +2,9 @@
 Contributors: bradt, deliciousbrains, ianmjones
 Tags: uploads, amazon, s3, amazon s3, digitalocean, digitalocean spaces, mirror, admin, media, cdn, cloudfront
 Requires at least: 4.7
-Tested up to: 4.9
+Tested up to: 5.0
 Requires PHP: 5.5
-Stable tag: 2.0
+Stable tag: 2.0.1
 License: GPLv3
 
 Copies files to Amazon S3 or DigitalOcean Spaces as they are uploaded to the Media Library. Optionally configure Amazon CloudFront or another CDN for faster delivery.
@@ -21,6 +21,10 @@ Uploading files *directly* to your Amazon S3 or DigitalOcean Spaces account is n
 
 If you're adding this plugin to a site that's been around for a while, your existing media files will not be copied to or served from Amazon S3 or DigitalOcean Spaces. Only newly uploaded files will be copied to and served from the bucket. The pro upgrade has an upload tool to handle existing media files.
 
+**Image Optimization**
+
+Although WP Offload Media doesn't include image optimization features, we work closely with the author of [EWWW Image Optimizer](https://wordpress.org/plugins/ewww-image-optimizer/) to ensure they always work well together. Not only do we recommend EWWW Image Optimizer but we officially support its integration with WP Offload Media.
+
 **PRO Upgrade with Email Support and More Features**
 
 * Upload existing Media Library to Amazon S3 or DigitalOcean Spaces
@@ -35,8 +39,6 @@ If you're adding this plugin to a site that's been around for a while, your exis
 The video below runs through the pro upgrade features...
 
 https://www.youtube.com/watch?v=55xNGnbJ_CY
-
-*This plugin has been completely rewritten, but was originally a fork of [Amazon S3 for WordPress with CloudFront](http://wordpress.org/extend/plugins/tantan-s3-cloudfront/) which is a fork of [Amazon S3 for WordPress](http://wordpress.org/extend/plugins/tantan-s3/), also known as tantan-s3.*
 
 == Installation ==
 
@@ -75,6 +77,14 @@ This is a major change, which ensures S3 URLs are no longer saved in post conten
 This version requires PHP 5.3.3+ and the Amazon Web Services plugin
 
 == Changelog ==
+
+= WP Offload Media Lite 2.0.1 - 2018-12-17 =
+* Improvement: Streamlined UI for setting Storage Provider and Bucket
+* Bug fix: On/Off switches in settings look reversed
+* Bug fix: Latest upgrade routine runs on fresh install
+* Bug fix: Defined settings still found in database
+* Bug fix: More Info links in Storage Provider settings incorrect
+* Tested: WordPress 5.0
 
 = WP Offload Media Lite 2.0 - 2018-09-24 =
 * [Release Summary Blog Post](https://deliciousbrains.com/wp-offload-media-supports-digitalocean-spaces/)
