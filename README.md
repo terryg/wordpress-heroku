@@ -38,7 +38,7 @@ Create a new branch for any configuration/setup changes needed
 
     $ git checkout -b production
     
-Set unique keys and slats in Heroku environment variables.
+Set unique keys and salts in the Heroku environment variables.
 
     $ ./heroku-config-set.sh
 
