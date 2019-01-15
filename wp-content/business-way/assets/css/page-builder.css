@@ -1,0 +1,8 @@
+/*
+* CSS file for making theme compatible for Page Builder By Site Origin Plugin
+* @since 1.0.0
+* @package Corporate
+*/
+.siteorigin-panels .panel-layout .container {
+    width: 100%;
+}
