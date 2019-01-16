@@ -1,0 +1,251 @@
+/*
+Theme Name:   Business Path
+Author:       canyonthemes
+Author URI:   https://www.canyonthemes.com/
+Theme URI:    https://www.canyonthemes.com/downloads/business-path
+Template:     business-way
+Version:      1.0.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  business-path
+Description:  A prefect Free Business WordPress Theme. This theme comes with amazing slider, header options, WooCommerce compatibility, multiple blog layouts and many more. In addition, footer section options, sidebar options, pagination types, animation disable options, search placeholder are some added features. Furthermore, home page section options, 9+ added custom widgets, multiple sidebar area, go to top optons etc. Demo: http://canyonthemes.com/demo/business-path/
+Tags:         custom-logo, one-column, two-columns, right-sidebar, left-sidebar, custom-header, full-width-template, custom-background, custom-colors, custom-menu, featured-images, theme-options, threaded-comments, translation-ready, blog, portfolio, footer-widgets
+*/
+
+/* Write here your own personal stylesheet */
+body{
+	font-family: 'Karla', sans-serif;
+	font-weight: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+}
+.btn-primary{
+	background: #333!important;
+	color:#fff;
+	padding: 10px 15px;
+}
+.btn-primary:hover{
+	background: #666!important;
+	color:#fff!important;
+}
+.top-header {
+    background: #f1f1f1!important;
+    color: #253237 !important;
+}
+
+.social-links ul li a:before{
+	color: #253237 !important;
+}
+.header-right li a {
+    color: #253237;
+    background: transparent;
+    padding: 22px 40px;
+    border-left: 2px solid #e8e8e8;
+}
+.logo-box {
+    position: relative;
+    float: left;
+    left: 0px;
+    padding: 15px 0;
+    z-index: 10;
+}
+.logo img{
+	margin: 0;
+}
+.logo-box .navbar-brand {
+	display: none;
+}
+.slider-option .slider-item:after {
+    background: rgba(0,0,0,0.0);
+}
+.slider-item [class*="col-"]{
+	text-align: center;
+	width: 100%;
+}
+.slider-option .carousel-control.left {
+    left: 15px;
+    border-radius: 50%;
+}
+.slider-option .carousel-control.right {
+    right: 15px;
+    border-radius: 50%;
+}
+.mission-content .btn-default,
+.slider-content .btn-default{
+	background: #333!important;
+}
+.mission-content .btn-default:hover,
+.slider-content .btn-default:hover{
+	background: #333!important;
+	color: #fff!important;
+}
+section.why-chose {
+    background: #f1f1f1;
+}
+.chose-block{
+    text-align: center;
+    background: #fff;
+    box-shadow: none;
+    -webkit-transition: box-shadow 0.3s, transform 0.3s;
+    -moz-transition: box-shadow 0.3s, transform 0.3s;
+    -ms-transition: box-shadow 0.3s, transform 0.3s;
+    -o-transition: box-shadow 0.3s, transform 0.3s;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+.chose-block:hover {
+    -webkit-box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+    transform: translateY(-10px);
+}
+.claw-icon {
+    float: none;
+    margin: 20px auto;
+    background: #f4f4f4;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    color: #333;
+    font-size: 35px;
+
+}
+.chose-block:hover .claw-icon {
+    background: #b7b7b7!important;
+    color: #fff;
+}
+.feature-box [class*="col-md-8"]{
+	width: 100%;
+	border:1px solid #f1f1f1;
+}
+.feature-box [class*="col-md-4"]{
+	display: none;
+}
+.feature-box [class*="col-md-6"]:nth-child(2),
+.feature-box [class*="col-md-6"]:nth-child(3){
+	background: #f1f1f1;
+}
+.feature-txt {
+    padding-left: 0;
+    display: initial;
+}
+.thin-icon a{
+	color: #333!important;
+}
+.feature-block{
+	margin: 0;
+	padding: 30px;
+}
+.services {
+    background: #f1f1f1!important;
+}
+.services-box {
+    color: #696969;
+}
+.services .overlay{
+	display:none;
+}
+.services .sec-title h2 {
+    color: #253237;
+}
+.services .sec-title p {
+    color: #696969;
+}
+.services-block a h4 {
+    color: #353535;
+}
+.mission:before {
+    display: none;
+}
+.mission h2 {
+    letter-spacing: 0;
+}
+.mission p {
+    color: #696969;
+}
+.prortfolio{
+	background: #fff;
+}
+.portfolioFilter a:hover, 
+.portfolioFilter a.current{
+	background: #333!important;
+}
+.filter-box .overlay {
+    background: rgba(0, 0, 0, 0.16);
+    border:0;
+}
+.filter-box .lower-box a i{
+	color: #333;
+}
+.contact-form {
+    background: #cacaca!important;
+}
+form.appoint{
+	margin: 0;
+}
+form.appoint textarea {
+    height: 100px;
+}
+.news {
+    background: #f1f1f1;
+}
+.news-block {
+    background: #fff;
+    -webkit-transition: box-shadow 0.3s, transform 0.3s;
+    -moz-transition: box-shadow 0.3s, transform 0.3s;
+    -ms-transition: box-shadow 0.3s, transform 0.3s;
+    -o-transition: box-shadow 0.3s, transform 0.3s;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+.news-block:hover{
+	-webkit-box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+    transform: translateY(-10px);
+}
+.news-date {
+    background: rgba(0, 0, 0, 0.54) !important;
+}
+.news-text {
+    display: inherit;
+    padding: 0 20px 20px 20px;
+}
+.call-to-action {
+    background-color: #dedede!important;
+}
+.call-to-action .text {
+    color: #333;
+}
+.btn-style-six {
+    color: #333;
+    border: 2px solid #666;
+}
+.footer-top {
+    background: #ffffff;
+    padding-top: 60px;
+}
+#footer-bottom {
+    background: #f1f1f1;
+    color: #949494;
+}
+.footer-bottom p {
+    color: #949494;
+}
+.scroll-top,
+.widget .search-block button{
+	background: #333!important;
+}
+.scroll-top{
+	border-radius: 50%!important;
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+}
+.page-header{
+	margin-top: 0!important;
+}

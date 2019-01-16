@@ -1,0 +1,54 @@
+.business-way-about-wrap .business-way-section .dashicons {
+	margin-top: -4px;
+	vertical-align: middle;
+}
+
+.business-way-about-wrap .nav-tab {
+	font-size: 16px;
+}
+
+.business-way-about-wrap h1 {
+	font-size: 2em;
+}
+
+.business-way-about-wrap h3 {
+	font-size: 1.2em;
+}
+
+.business-way-about-wrap .business-way-section-useful-plugins,
+.business-way-about-wrap .business-way-section-upgrade-to-pro,
+.business-way-about-wrap .business-way-section-demo-content {
+	margin-top: 50px;
+}
+
+.business-way-about-wrap .tab-upgrade-to-pro {
+	background-color: #bf2424;
+	background-color: #159614;
+	color: #FFF;
+}
+
+.business-way-about-wrap .wp-badge {
+	background-image: url('../images/canyonthemes-logo.png');
+	background-color: #FFF;
+	background-size: 110px auto;
+	background-position: center;
+	height: 70px;
+}
+
+.business-way-about-wrap .quick-links a {
+	margin-right: 5px;
+}
+
+.business-way-about-notice .btn-dismiss {
+	margin-left: 20px;
+}
+
+.business-way-about-wrap .plugin-list {
+	list-style-position: inside;
+	list-style-type: disc;
+}
+.business-way-about-wrap .about-demo-images .demo-image img {
+    max-width: 50%;
+    float: left;
+    margin: 11px;
+}
