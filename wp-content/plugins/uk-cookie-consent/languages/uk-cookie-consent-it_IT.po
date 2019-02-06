@@ -1,0 +1,453 @@
+# Copyright (C) 2016 Cookie Consent
+# This file is distributed under the same license as the Cookie Consent package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Cookie Consent 2.0.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/uk-cookie-"
+"consent\n"
+"POT-Creation-Date: 2016-01-12 23:15:34+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-07-27 17:07+0100\n"
+"Last-Translator: Angelo Giammarresi <info@wocmultimedia.com>\n"
+"Language-Team: Angelo Giammarresi <info@wocmultimedia.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: it_IT\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. #-#-#-#-#  uk-cookie-consent.pot (Cookie Consent 2.0.3)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: admin/class-ctcc-admin.php:56 admin/class-ctcc-admin.php:630
+#: public/customizer.php:17
+msgid "Cookie Consent"
+msgstr "Consenso Cookie "
+
+#: admin/class-ctcc-admin.php:65
+msgid "General settings"
+msgstr "Impostazioni Generali"
+
+#: admin/class-ctcc-admin.php:72
+msgid "Close"
+msgstr "Chiudi"
+
+#: admin/class-ctcc-admin.php:80
+msgid "First Page Only"
+msgstr "Solo Prima Pagina"
+
+#: admin/class-ctcc-admin.php:88
+msgid "Notification Duration"
+msgstr "Durata Avviso"
+
+#: admin/class-ctcc-admin.php:96
+msgid "Cookie Expiry"
+msgstr "Scadenza Cookie"
+
+#: admin/class-ctcc-admin.php:104
+msgid "Cookie Version"
+msgstr "Versione Cookie"
+
+#: admin/class-ctcc-admin.php:126
+msgid "Content settings"
+msgstr "Impostazioni contenuti"
+
+#: admin/class-ctcc-admin.php:133
+msgid "Heading Text"
+msgstr "Testo Intestazione"
+
+#: admin/class-ctcc-admin.php:141
+msgid "Notification Text"
+msgstr "Testo Avviso"
+
+#: admin/class-ctcc-admin.php:149
+msgid "More Info Text"
+msgstr "Testo Maggiori Informazioni"
+
+#: admin/class-ctcc-admin.php:157
+msgid "More Info Page"
+msgstr "Pagina Maggiori Informazioni"
+
+#: admin/class-ctcc-admin.php:165
+msgid "More Info URL"
+msgstr "URL di Approfondimento"
+
+#: admin/class-ctcc-admin.php:173
+msgid "More Info Target"
+msgstr "Destinazione Pagina Informazioni"
+
+#: admin/class-ctcc-admin.php:181
+msgid "Accept Text"
+msgstr "Testo Accettazione"
+
+#: admin/class-ctcc-admin.php:203
+msgid "Styles settings"
+msgstr "Impostazioni Stili"
+
+#: admin/class-ctcc-admin.php:210 public/customizer.php:34
+msgid "Position"
+msgstr "Posizione"
+
+#: admin/class-ctcc-admin.php:218 public/customizer.php:58
+msgid "Container Class"
+msgstr "Classe Container"
+
+#: admin/class-ctcc-admin.php:226
+msgid "Include Stylesheet"
+msgstr "Includere Foglio di Stile"
+
+#: admin/class-ctcc-admin.php:234 public/customizer.php:90
+msgid "Rounded Corners"
+msgstr "Spigoli Arrotondati"
+
+#: admin/class-ctcc-admin.php:242 public/customizer.php:106
+msgid "Drop Shadow"
+msgstr "Ombra Esterna"
+
+#: admin/class-ctcc-admin.php:250 public/customizer.php:122
+msgid "Display Button With Text"
+msgstr "Visualizza pulsante con testo"
+
+#: admin/class-ctcc-admin.php:258 public/customizer.php:138
+msgid "Use X Close"
+msgstr "Usa una X per chiudere"
+
+#: admin/class-ctcc-admin.php:266 public/customizer.php:154
+msgid "Text Color"
+msgstr "Colore Testo"
+
+#: admin/class-ctcc-admin.php:274 admin/class-ctcc-admin.php:306
+#: public/customizer.php:170
+msgid "Background Color"
+msgstr "Colore Sfondo"
+
+#: admin/class-ctcc-admin.php:282 public/customizer.php:186
+msgid "Link Color"
+msgstr "Colore Link"
+
+#: admin/class-ctcc-admin.php:290 public/customizer.php:202
+msgid "Button Color"
+msgstr "Colore Testo Pulsante"
+
+#: admin/class-ctcc-admin.php:298 public/customizer.php:218
+msgid "Button Background"
+msgstr "Colore Sfondo Pulsante"
+
+#: admin/class-ctcc-admin.php:339 admin/class-ctcc-admin.php:349
+msgid "Cookies"
+msgstr "Cookies"
+
+#: admin/class-ctcc-admin.php:350
+msgid "This site uses cookies: "
+msgstr "Questo sito utilizza i cookie:"
+
+#: admin/class-ctcc-admin.php:351
+msgid "Okay, thanks"
+msgstr "Va bene, grazie"
+
+#: admin/class-ctcc-admin.php:352
+msgid "Find out more."
+msgstr "Leggi di più."
+
+#: admin/class-ctcc-admin.php:411
+msgid "On Click"
+msgstr "Quando Clicchi"
+
+#: admin/class-ctcc-admin.php:412
+msgid "Timed"
+msgstr "Temporizzato"
+
+#: admin/class-ctcc-admin.php:414
+msgid "How you want the user to close the notification"
+msgstr "Come desideri che l'utente chiuda la notifica"
+
+#: admin/class-ctcc-admin.php:421
+msgid ""
+"Select this to show the notification only on the first page the user visits"
+msgstr ""
+"Seleziona questa casella se vuoi mostrare l'avviso solo nella prima pagina "
+"che l'utente visita"
+
+#: admin/class-ctcc-admin.php:428
+msgid ""
+"If you chose Timer as the close method, enter how many seconds the "
+"notification should display for"
+msgstr ""
+"Se scegli Temporizzato come metodo di chiusura, devi inserire quanti secondi "
+"desideri che l'avviso venga mostrato prima di chiudersi"
+
+#: admin/class-ctcc-admin.php:435
+msgid "The number of days that the cookie is set for"
+msgstr "Il numero di giorni che il cookie viene tenuto in memoria"
+
+#: admin/class-ctcc-admin.php:442
+msgid ""
+"A version number for the cookie - update this to invalidate the cookie and "
+"force all users to view the notification again"
+msgstr ""
+"Contatore numerico del cookie - se il inserisci un valore maggiore di  1 si "
+"annulla il cookie e si obbliga l'utente a rivedere nuovamente l'avviso per "
+"il numero di volte che imposti in questa casella"
+
+#: admin/class-ctcc-admin.php:453
+msgid ""
+"The heading text - only applies if you are not using a top or bottom bar"
+msgstr ""
+"Il testo dell'Intestazione - appare solo quando la posizione scelta "
+"dell'avviso non è in Alto o in Basso"
+
+#: admin/class-ctcc-admin.php:460
+msgid "The default text to indicate that your site uses cookies"
+msgstr ""
+"Il testo predefinito per indicare che il tuo sito sta utilizzando i cookie"
+
+#: admin/class-ctcc-admin.php:467
+msgid "The default text to dismiss the notification"
+msgstr "Il testo predefinito per chiudere l'avviso"
+
+#: admin/class-ctcc-admin.php:474
+msgid "The default text to use to link to a page providing further information"
+msgstr ""
+"Il testo predefinito da usare come link per la pagina di approfondimento "
+"delle informazioni sui cookie"
+
+#: admin/class-ctcc-admin.php:490
+msgid "The page containing further information about your cookie policy"
+msgstr ""
+"La pagina contenente le informazioni di approfondimento sull'utilizzo dei "
+"cookie"
+
+#: admin/class-ctcc-admin.php:497
+msgid ""
+"You can add an absolute URL here to override the More Info Page setting "
+"above. Use this to link to an external website for further information about "
+"cookies."
+msgstr ""
+"Puoi inserire qui una URL assoluta e non tener conto delle impostazioni "
+"soprastanti per la Pagina Maggiori Informazioni"
+
+#: admin/class-ctcc-admin.php:504
+msgid "New Tab"
+msgstr "Nuova Scheda"
+
+#: admin/class-ctcc-admin.php:505
+msgid "Same Tab"
+msgstr "Stessa Scheda"
+
+#: admin/class-ctcc-admin.php:507
+msgid "Open the More Information page in the same or new tab."
+msgstr ""
+"Apre la Pagina Maggiori Informazioni nella stessa scheda oppure in una nuova "
+"scheda."
+
+#: admin/class-ctcc-admin.php:518 public/customizer.php:36
+msgid "Top Bar"
+msgstr "Barra in Alto"
+
+#: admin/class-ctcc-admin.php:519 public/customizer.php:37
+msgid "Bottom Bar"
+msgstr "Barra in Basso"
+
+#: admin/class-ctcc-admin.php:520 public/customizer.php:38
+msgid "Top Left Block"
+msgstr "Blocco in Alto a Sinistra"
+
+#: admin/class-ctcc-admin.php:521 public/customizer.php:39
+msgid "Top Right Block"
+msgstr "Blocco in Alto a Destra"
+
+#: admin/class-ctcc-admin.php:522 public/customizer.php:40
+msgid "Bottom Left Block"
+msgstr "Blocco in Basso a Sinistra"
+
+#: admin/class-ctcc-admin.php:523 public/customizer.php:41
+msgid "Bottom Right Block"
+msgstr "Blocco in Basso a Destra"
+
+#: admin/class-ctcc-admin.php:525
+msgid "Where the notification should appear"
+msgstr "Dove vuoi che appaia l'avviso o notifica"
+
+#: admin/class-ctcc-admin.php:532
+msgid ""
+"You can add an optional wrapper class, eg container, here to align the "
+"notification text with the rest of your content"
+msgstr ""
+"Si può aggiungere qui opzionalmente una classe wrapper, es. container, per "
+"allineare il testo della notifica con il resto del contenuto"
+
+#: admin/class-ctcc-admin.php:539
+msgid "Deselect this to dequeue the plugin stylesheet"
+msgstr ""
+"Deseleziona la casella per non aggiungere il foglio di stile del plugin"
+
+#: admin/class-ctcc-admin.php:546
+msgid "Round the corners on the block (doesn't apply to the top or bottom bar)"
+msgstr ""
+"Arrotonda gli angoli del blocco contenente l'avviso (non funziona con Barra "
+"in Alto e Barra in Basso)"
+
+#: admin/class-ctcc-admin.php:553
+msgid "Add drop shadow to the block (doesn't apply to the top or bottom bar)"
+msgstr ""
+"Aggiunge un'ombra esterna al blocco contenente l'avviso (non funziona con "
+"Barra in Alto e Barra in Basso)"
+
+#: admin/class-ctcc-admin.php:560
+msgid "Display the confirmation button with notification text"
+msgstr "Visualizza il pulsante di accettazione con il testo di notifica"
+
+#: admin/class-ctcc-admin.php:567
+msgid "Remove confirmation button and use 'X' icon instead"
+msgstr ""
+"Rimuove il pulsante di accettazione e al suo posto utilizza l'icona di una "
+"'X' per chiudere l'avviso"
+
+#: admin/class-ctcc-admin.php:574
+msgid "The text color on the notification"
+msgstr "Il colore del testo della notifica"
+
+#: admin/class-ctcc-admin.php:581
+msgid "The background color for the notification"
+msgstr "Il colore di sfondo della notifica"
+
+#: admin/class-ctcc-admin.php:588
+msgid "The link color on the notification"
+msgstr "Il colore del link usato nella notifica"
+
+#: admin/class-ctcc-admin.php:595
+msgid "The text color on the notification button"
+msgstr "Il colore del testo del pulsante della notifica"
+
+#: admin/class-ctcc-admin.php:602
+msgid "The background color on the notification button"
+msgstr "Il colore dello sfondo del pulsante della notifica"
+
+#: admin/class-ctcc-admin.php:607
+msgid "<p>Basic settings</p>"
+msgstr "<p>Impostazioni di base</p>"
+
+#: admin/class-ctcc-admin.php:611
+msgid "<p>Update the content displayed to the user</p>"
+msgstr "<p>Aggiorna il contenuto mostrato all'utente</p>"
+
+#: admin/class-ctcc-admin.php:615
+msgid ""
+"<p>Change the styles here if you like - but it's better in the Customizer</p>"
+msgstr ""
+"<p>Si può cambiare qui gli stili se si desiera  - ma è meglio utilizzare "
+"Personalizza (Customizer) di WP </p>"
+
+#: admin/class-ctcc-admin.php:632
+msgid "General"
+msgstr "Generale"
+
+#: admin/class-ctcc-admin.php:633
+msgid "Content"
+msgstr "Contenuto"
+
+#: admin/class-ctcc-admin.php:634
+msgid "Styles"
+msgstr "Stili"
+
+#: admin/class-ctcc-admin.php:656
+msgid "Reset plugin defaults"
+msgstr "Ripristina impostazioni predefinite del plugin"
+
+#: public/customizer.php:43
+msgid "Position and placement."
+msgstr "Posizione e posizionamento."
+
+#: public/customizer.php:59
+msgid "Optional wrapper class."
+msgstr "Classe wrapper opzionale."
+
+#: public/customizer.php:74
+msgid "Enqueue Styles"
+msgstr "Stili di accodamento"
+
+#: public/customizer.php:75
+msgid "Deselect this to dequeue the plugin stylesheet."
+msgstr ""
+"Deselezionare per annullare l'accodamento del foglio di stile del plugin."
+
+#: public/customizer.php:91
+msgid "Round the corners on the block."
+msgstr "Arrotonda gli angoli del blocco."
+
+#: public/customizer.php:107
+msgid "Add drop shadow to the block."
+msgstr "Aggiunge un'ombra esterna al blocco."
+
+#: public/customizer.php:123
+msgid "Deselect to float button to right."
+msgstr "Deselezionare per spostare il pulsante alla destra."
+
+#: public/customizer.php:139
+msgid "Replace confirmation button with 'X' icon."
+msgstr "Rimpiazza il pulsante di accettazione con una 'X'."
+
+#: public/customizer.php:155
+msgid "Text color for your notification bar."
+msgstr "Il colore del testo per la barra di notifica."
+
+#: public/customizer.php:171
+msgid "Background color for your notification bar."
+msgstr "Il colore dello sfondo della barra di notifica."
+
+#: public/customizer.php:187
+msgid "Link color for your notification bar."
+msgstr "Il colore del link per la barra di notifica."
+
+#: public/customizer.php:203
+msgid "Text color for your notification bar button."
+msgstr "Il colore del testo per il pulsante nella barra di notifica"
+
+#: public/customizer.php:219
+msgid "Background color for your notification bar button."
+msgstr "Il colore dello sfondo per il pulsante nella barra di notifica"
+
+#: uk-cookie-consent.php:54
+msgid "Cookie Policy"
+msgstr "Cookie Policy"
+
+#: uk-cookie-consent.php:55
+msgid ""
+"This site uses cookies - small text files that are placed on your machine to "
+"help the site provide a better user experience. In general, cookies are used "
+"to retain user preferences, store information for things like shopping "
+"carts, and provide anonymised tracking data to third party applications like "
+"Google Analytics. As a rule, cookies will make your browsing experience "
+"better. However, you may prefer to disable cookies on this site and on "
+"others. The most effective way to do this is to disable cookies in your "
+"browser. We suggest consulting the Help section of your browser or taking a "
+"look at <a href=\"http://www.aboutcookies.org\">the About Cookies website</"
+"a> which offers guidance for all modern browsers"
+msgstr ""
+"Questo sito utilizza cookies - piccoli file di testo che vengono depositati "
+"sul vostro computer per aiutare il sito a fornire una migliore esperienza "
+"utente. In generale, i cookie vengono utilizzati per mantenere le preferenze "
+"degli utenti, memorizzano le informazioni per cose come carrelli della "
+"spesa, e fornire dati di monitoraggio anonimi per applicazioni di terze "
+"parti come Google Analytics. Come regola generale, i cookie renderanno la "
+"vostra esperienza di navigazione migliore. Tuttavia, si può scegliere di "
+"disabilitare i cookie su questo sito e su altri. Il modo più efficace per "
+"farlo è quello di disabilitare i cookie nel proprio browser. Si consiglia di "
+"consultare la sezione Guida del browser o di dare un'occhiata a <a href="
+"\"http://www.aboutcookies.org\"> About Cookies sito </a>, che offre una "
+"guida per tutti i browser moderni"
+
+#. Plugin URI of the plugin/theme
+msgid "http://catapultthemes.com/cookie-consent/"
+msgstr "http://catapultthemes.com/cookie-consent/"
+
+#. Description of the plugin/theme
+msgid "The only cookie consent plugin you'll ever need."
+msgstr "Il solo plugin per il consenso dei cookie di cui avrai bisogno."
+
+#. Author of the plugin/theme
+msgid "Catapult_Themes"
+msgstr "Catapult_Themes"
+
+#. Author URI of the plugin/theme
+msgid "http://catapultthemes.com/"
+msgstr "http://catapultthemes.com/"
