@@ -287,7 +287,7 @@ function vw_dentist_string_limit_words($string, $word_limit) {
 	return implode(' ', $words);
 }
 
-define('VW_DENTIST_CREDIT','https://www.vwthemes.com/themes/free-dentist-wordpress-theme/','vw-dentist');
+define('VW_DENTIST_CREDIT','https://www.vwthemes.com/themes/free-dentist-wordpress-theme/');
 if ( ! function_exists( 'vw_dentist_credit' ) ) {
 	function vw_dentist_credit(){
 		echo "<a href=".esc_url(VW_DENTIST_CREDIT)." target='_blank'>".esc_html__('Dentist WordPress Theme ','vw-dentist')."</a>";
