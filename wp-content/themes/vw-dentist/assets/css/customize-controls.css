@@ -1,0 +1,53 @@
+#customize-controls .control-section-vw-dentist .accordion-section-title:hover,
+#customize-controls .control-section-vw-dentist .accordion-section-title:focus {
+	background-color: #fff;
+}
+.control-section-vw-dentist .accordion-section-title .button {
+	margin-top:  -4px;
+	font-weight: 400;
+	margin-left: 8px;
+}
+.rtl .control-section-vw-dentist .accordion-section-title .button {
+	margin-left:  0;
+	margin-right: 8px;
+}
+.customize-control input[type=number], 
+.customize-control input[type=search], 
+.customize-control input[type=tel], 
+.customize-control input[type=url], 
+.customize-control input[type=text], 
+.customize-control input[type=password],
+.customize-control input[type=email],
+.customize-control select{
+	border: none;
+}
+.customize-control-title {
+    display: -webkit-inline-box;
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    background: #0085ba;
+    padding: 0px 15px;
+    color: #fff;
+}
+
+/* ---------Customizer--------- */
+.control-section-vw-dentist h3.accordion-section-title {
+	background:  #07a7e3 !important;
+	font-size: 14px !important;
+	color: #fff !important;
+}
+a.button.button-secondary.alignright {
+    color: #fff;
+    box-shadow: none;
+    font-weight: bold;
+    padding: 1px 10px;
+    background: #13455e;
+    height: 32px;
+    font-size: 12px !important;
+}
+a.button.button-secondary.alignright:hover {
+	background: #32dac3;
+	color: #fff;
+}
