@@ -1,0 +1,262 @@
+.getting-started {
+    padding: 50px 20px;
+    max-width: 1080px;
+    margin: 0 auto;
+    line-height: 1.4rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 1em 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+.col-60 {
+    width: 60%;
+    float: left;
+    min-height: 100px;
+}
+
+.col-40 {
+    width: 40%;
+    float: left;
+    min-height: 100px;
+}
+
+.intro h2{
+    font-size: 2rem;
+    color: #394f5a;
+}
+
+.intro__version {
+	font-size: 1rem;
+    color: #7695a5;
+}
+
+.dashboard-upgrade-center {
+    margin-top: 4em;
+    line-height: 1.2;
+    text-align: center;
+    padding: 0 5em;
+    box-sizing: border-box;
+}
+
+.theme__cta--download--pro {
+    background-color: #13cb6e;
+    color: #fff;
+    padding: .5em 1em;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    display: inline-block;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-drag: none;
+    user-select: none;
+    box-sizing: border-box;
+    transition: all .2s ease-in;
+    text-decoration: none;
+    margin-right: .5em;
+    text-transform: uppercase;
+}
+
+.theme__cta--download--pro:hover{
+    color: #fff;
+    background-color: #1fa45c;
+    border-color: #1fa45c;
+}
+
+
+.theme__cta--demo{
+    padding: .5em 1em;
+    color: #394f5a;
+    border: 1px solid #b5d2e1;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.bellini__upgrade-info-box {
+    background-color: #4800ff !important;
+    color: #fff;
+    padding: 2.5em 4em !important;
+    margin: 5em 0 !important;
+    border-radius: 2px;
+    border: none !important;
+}
+
+.bellini__upgrade-info-box h2 {
+    color: #fff !important;
+    font-size: 36px !important;
+    font-weight: 700 !important;
+}
+
+.block--pro {
+    padding-top: 2.5rem;
+    text-align: right;
+}
+
+
+.intro {
+    padding: 2em 4em;
+    background-color: #fff;
+    border: 1px solid #e2e1e1;
+    margin: 40px auto;
+    width:100%;
+    float: left;
+    text-align: center;
+}
+
+.club-discount strong {
+    font-size: 16px;
+}
+
+.theme-names,
+.theme-ver {
+    display:inline-block;
+    margin-right:10px;
+}
+
+.name-bold {
+    font-weight: bold;
+}
+
+.theme-names {
+    font-size: 45px !important;
+    font-weight: normal;
+    margin-bottom: .5em;
+}
+
+.cards {
+    padding: 2em 4em;
+    background-color: #fff;
+    border: 1px solid #e2e1e1;
+    width:100%;
+    float:left;
+}
+
+.getting-started h2,
+.getting-started h3{
+    color: #323b43;
+}
+
+.getting-started__header {margin-bottom: 3rem;}
+
+
+
+.dashboard__block {
+	padding-top: 30px;
+}
+
+.dashboard__block h3{
+	font-size:1.2rem;
+	border-bottom: 1px solid #e8e8e8;
+    padding-bottom: .85rem;
+}
+
+.dashboard-upgrade-button {
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: .2em;
+    background-color: #13cb6e;
+    font-weight: bold;
+}
+
+.dashboard-cta {
+    max-width: 880px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.25;
+}
+
+.dashboard-upgrade-title{display: inline-block; font-size:1.15rem;}
+
+.dashboard-upgrade-benefit{
+	border-top: 1px solid #e1eef4;
+    padding-top: 1em;
+}
+
+.dashboard-upgrade-right {
+    margin-top: 4em;
+    line-height: 1.2;
+    text-align: left;
+    padding: 0 5em;
+    box-sizing: border-box;
+}
+
+.dashboard-upgrade-right h2 {
+    font-size: 26px;
+    display: block;
+}
+
+.theme-f-h {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.col-50 {
+    width: 50%;
+    float: left;
+    margin-bottom: 20px;
+    min-height:180px;
+}
+
+.dashboard-upgrade-left {
+    padding-left: 0;
+}
+
+.flexify--center {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.dashboard-cta-right {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.text-block {
+    margin-bottom: 4em;
+	margin-top: 4em;
+    width: 100%;
+    float: left;
+
+}
+
+.no-top-margin{margin-top:0;}
+.no-bottom-margin{margin-bottom:0;}
+
+.club-discount {
+    background: #f4f0ff;
+    border: dashed 2px #4800ff;
+    padding: 15px 40px;
+    margin-top: 2em;
+    margin-bottom: 5em;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dashboard-upgrade-benefit li:before {
+    content: "\f147";
+    position: relative;
+    padding-right: 4%;
+    text-align: center;
+    text-indent: 0;
+    font: 400 18px/1 dashicons;
+    vertical-align: top;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color:#13cb6e;
+}
