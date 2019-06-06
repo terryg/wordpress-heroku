@@ -4,14 +4,16 @@
 # Kappei Nakano <nakano.kappei@gmail.com>, 2016
 # kihoshin <kiho7777@gmail.com>, 2015
 # monaye win <winmonaye@gmail.com>, 2016
+# Prouveze Emmanuel <manu@prouveze.fr>, 2018
 # Sugahara Masayuki <brindflontia@gmail.com>, 2016
 # Rockers <sumorock@hotmail.com>, 2018
 # 亀山 翔大 <shotakame@gmail.com>, 2017
+# 長澤良次 <yoshi4181@gmail.com>, 2019
 # 長澤良次 <yoshi4181@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: MailChimp for WordPress\n"
-"PO-Revision-Date: 2018-05-04 04:50+0000\n"
+"PO-Revision-Date: 2019-04-06 01:52+0000\n"
 "Last-Translator: 長澤良次 <yoshi4181@gmail.com>\n"
 "Language-Team: Japanese (Japan) (http://www.transifex.com/ibericode/mailchimp-for-wordpress/language/ja_JP/)\n"
 "MIME-Version: 1.0\n"
@@ -82,7 +84,7 @@ msgstr "その他"
 
 #: includes/admin/class-admin.php:458
 msgid "Log successfully emptied."
-msgstr ""
+msgstr "ログ削除に成功しました。"
 
 #: includes/admin/class-admin.php:488
 msgid ""
@@ -200,7 +202,7 @@ msgstr "チェックボックス"
 
 #: includes/forms/class-admin.php:65
 msgid "Choices"
-msgstr ""
+msgstr "選択肢"
 
 #: includes/forms/class-admin.php:66
 msgid "Choice type"
@@ -323,7 +325,7 @@ msgstr "送信ボタン"
 
 #: includes/forms/class-admin.php:96
 msgid "Wrap in paragraph tags?"
-msgstr ""
+msgstr "段落タグで囲みますか？"
 
 #: includes/forms/class-admin.php:97
 msgid "Value"
@@ -331,7 +333,7 @@ msgstr "値"
 
 #: includes/forms/class-admin.php:98
 msgid "Text to prefill this field with."
-msgstr ""
+msgstr "このフィールドに事前入力するテキスト"
 
 #: includes/forms/class-admin.php:99
 msgid "ZIP"
@@ -372,7 +374,7 @@ msgstr "URLまたは送信されたフォームのデータ"
 
 #: includes/forms/class-form-tags.php:71
 msgid "Data from a cookie."
-msgstr ""
+msgstr "クッキーからのデータ"
 
 #: includes/forms/class-form-tags.php77,
 #: includes/integrations/class-integration-tags.php:45
@@ -514,7 +516,7 @@ msgstr ""
 
 #: includes/views/other-settings.php:99
 msgid "Debug Log"
-msgstr ""
+msgstr "デバッグログ"
 
 #: includes/views/other-settings.php:99
 msgid "Filter.."
@@ -522,7 +524,7 @@ msgstr ""
 
 #: includes/views/other-settings.php:104
 msgid "Log file is not writable."
-msgstr ""
+msgstr "ログファイルは書き込み可能ではありません。"
 
 #: includes/views/other-settings.php:105
 msgid "Please ensure %s has the proper <a href=\"%s\">file permissions</a>."
@@ -534,7 +536,7 @@ msgstr ""
 
 #: includes/views/other-settings.php:133
 msgid "Empty Log"
-msgstr ""
+msgstr "空のログ"
 
 #: includes/views/other-settings.php:141
 msgid "Right now, the plugin is configured to only log errors and warnings."

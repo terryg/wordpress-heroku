@@ -4,7 +4,7 @@
  *
  * @package WPSEO\Admin\Views\Breadcrumbs
  *
- * @var Yoast_Form $yform
+ * @uses Yoast_Form $yform Form object.
  */
 
 if ( ! current_theme_supports( 'yoast-seo-breadcrumbs' ) ) {
@@ -69,7 +69,6 @@ echo '<br/>';
 $taxonomies = get_taxonomies(
 	array(
 		'public'   => true,
-		'_builtin' => false,
 	),
 	'objects'
 );
