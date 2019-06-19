@@ -1,0 +1,672 @@
+# Translation of Development (trunk) in Polish
+# This file is distributed under the same license as the Development (trunk) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: UK Cookie Consent v1.8.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/uk-cookie-"
+"consent\n"
+"POT-Creation-Date: 2016-01-13 00:16+0100\n"
+"PO-Revision-Date: 2016-01-13 00:17+0100\n"
+"Last-Translator: Jędrzej Raczyński <jedrzejraczynski@gmail.com>\n"
+"Language-Team: Patu design <biuro@patudesign.pl>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. Plugin Name of the plugin/theme
+#: admin/class-ctcc-admin.php:56 admin/class-ctcc-admin.php:630
+#: public/customizer.php:17
+msgid "Cookie Consent"
+msgstr "Zgoda na Cookies"
+
+#: admin/class-ctcc-admin.php:65
+msgid "General settings"
+msgstr "Ustawienia"
+
+#: admin/class-ctcc-admin.php:72
+msgid "Close"
+msgstr "Zamknij"
+
+#: admin/class-ctcc-admin.php:80
+msgid "First Page Only"
+msgstr "Tylko na pierwszej stronie"
+
+#: admin/class-ctcc-admin.php:88
+msgid "Notification Duration"
+msgstr "Czas trwania powiadomienia"
+
+#: admin/class-ctcc-admin.php:96
+msgid "Cookie Expiry"
+msgstr "Czas do wygaśnięcia akceptacji"
+
+#: admin/class-ctcc-admin.php:104
+msgid "Cookie Version"
+msgstr "Wersja ciasteczka"
+
+#: admin/class-ctcc-admin.php:126
+msgid "Content settings"
+msgstr "Ustawienia treści"
+
+#: admin/class-ctcc-admin.php:133
+msgid "Heading Text"
+msgstr "Tekst nagłówka"
+
+#: admin/class-ctcc-admin.php:141
+msgid "Notification Text"
+msgstr "Tekst powiadomienia"
+
+#: admin/class-ctcc-admin.php:149
+msgid "More Info Text"
+msgstr "Tekst odnośnika więcej informacji"
+
+#: admin/class-ctcc-admin.php:157
+msgid "More Info Page"
+msgstr "Strona więcej informacji"
+
+#: admin/class-ctcc-admin.php:165
+msgid "More Info URL"
+msgstr "URL strony Więcej informacji"
+
+#: admin/class-ctcc-admin.php:173
+msgid "More Info Target"
+msgstr "Cel odnośnika Więcej informacji"
+
+#: admin/class-ctcc-admin.php:181
+msgid "Accept Text"
+msgstr "Tekst przyciska akceptacji"
+
+#: admin/class-ctcc-admin.php:203
+msgid "Styles settings"
+msgstr "Ustawienia stylów"
+
+#: admin/class-ctcc-admin.php:210 public/customizer.php:34
+msgid "Position"
+msgstr "Pozycja"
+
+#: admin/class-ctcc-admin.php:218 public/customizer.php:58
+msgid "Container Class"
+msgstr "Klasa pojemnika"
+
+#: admin/class-ctcc-admin.php:226
+msgid "Include Stylesheet"
+msgstr "Dołączaj style"
+
+#: admin/class-ctcc-admin.php:234 public/customizer.php:90
+msgid "Rounded Corners"
+msgstr "Zaokrąglone rogi"
+
+#: admin/class-ctcc-admin.php:242 public/customizer.php:106
+msgid "Drop Shadow"
+msgstr "Cień"
+
+#: admin/class-ctcc-admin.php:250 public/customizer.php:122
+msgid "Display Button With Text"
+msgstr "Pokazuj przycisk z tekstem"
+
+#: admin/class-ctcc-admin.php:258 public/customizer.php:138
+msgid "Use X Close"
+msgstr "Używaj zamknięcia X"
+
+#: admin/class-ctcc-admin.php:266 public/customizer.php:154
+msgid "Text Color"
+msgstr "Kolor tekstu"
+
+#: admin/class-ctcc-admin.php:274 admin/class-ctcc-admin.php:306
+#: public/customizer.php:170
+msgid "Background Color"
+msgstr "Kolor tła"
+
+#: admin/class-ctcc-admin.php:282 public/customizer.php:186
+msgid "Link Color"
+msgstr "Kolor odnośnika"
+
+#: admin/class-ctcc-admin.php:290 public/customizer.php:202
+msgid "Button Color"
+msgstr "Kolor tekstu przycisku"
+
+#: admin/class-ctcc-admin.php:298 public/customizer.php:218
+msgid "Button Background"
+msgstr "Tło przycisku"
+
+#: admin/class-ctcc-admin.php:339 admin/class-ctcc-admin.php:349
+msgid "Cookies"
+msgstr "pliki Cookies"
+
+#: admin/class-ctcc-admin.php:350
+msgid "This site uses cookies: "
+msgstr ""
+"Serwis wykorzystuje pliki cookies. Korzystając ze strony wyrażasz zgodę na "
+"wykorzystywanie plików cookies."
+
+#: admin/class-ctcc-admin.php:351
+msgid "Okay, thanks"
+msgstr "Ok, rozumiem"
+
+#: admin/class-ctcc-admin.php:352
+msgid "Find out more."
+msgstr "dowiedz się więcej."
+
+#: admin/class-ctcc-admin.php:411
+msgid "On Click"
+msgstr "Po kliknięciu"
+
+#: admin/class-ctcc-admin.php:412
+msgid "Timed"
+msgstr "Po czasie"
+
+#: admin/class-ctcc-admin.php:414
+msgid "How you want the user to close the notification"
+msgstr "Jak chcesz, by użytkownik zamykał powiadomienie"
+
+#: admin/class-ctcc-admin.php:421
+msgid ""
+"Select this to show the notification only on the first page the user visits"
+msgstr ""
+"Zaznacz tę opcję, by pokazywać powiadomienie tylko na pierwszej stronie, "
+"jaką odwiedzi użytkownik"
+
+#: admin/class-ctcc-admin.php:428
+msgid ""
+"If you chose Timer as the close method, enter how many seconds the "
+"notification should display for"
+msgstr ""
+"Wprowadź ile sekund powiadomienia ma być wyświetlane jeśli wybierzesz opcję "
+"'Po czasie' jako metodę zamknięcia"
+
+#: admin/class-ctcc-admin.php:435
+msgid "The number of days that the cookie is set for"
+msgstr "Na ile dni zgoda na pliki Cookies jest akceptowana"
+
+#: admin/class-ctcc-admin.php:442
+msgid ""
+"A version number for the cookie - update this to invalidate the cookie and "
+"force all users to view the notification again"
+msgstr ""
+"Numer wersji ciasteczka - zaktualizuj to pole, by unieważnić wszystkie "
+"dotychczasowe akceptacje i wymusić ponowne prezentowanie powiadomienia dla "
+"użytkowników, którzy już raz je akceptowali"
+
+#: admin/class-ctcc-admin.php:453
+msgid ""
+"The heading text - only applies if you are not using a top or bottom bar"
+msgstr ""
+"Tekst nagłówka - dotyczy jedynie, jeśli używać opcji prezentacji "
+"powiadomienia w rogu"
+
+#: admin/class-ctcc-admin.php:460
+msgid "The default text to indicate that your site uses cookies"
+msgstr "Domyślny tekst powiadamiający o używaniu plików Cookies na tej stronie"
+
+#: admin/class-ctcc-admin.php:467
+msgid "The default text to dismiss the notification"
+msgstr "Domyślny tekst aby wyrazić zgodę na pliki Cookies"
+
+#: admin/class-ctcc-admin.php:474
+msgid "The default text to use to link to a page providing further information"
+msgstr "Domyślny tekst odnośnika do strony dostarczającej więcej informacji"
+
+#: admin/class-ctcc-admin.php:490
+msgid "The page containing further information about your cookie policy"
+msgstr ""
+"Strona zawierająca więcej informacji odnośnie twojej polityki plików Cookies."
+
+#: admin/class-ctcc-admin.php:497
+msgid ""
+"You can add an absolute URL here to override the More Info Page setting "
+"above. Use this to link to an external website for further information about "
+"cookies."
+msgstr ""
+"Możesz tutaj wprowadzić URL aby nadpisać ustawienie powyżej. Używaj tego "
+"pola by odnośnik wskazywał strony zewnętrzne zawierające więcej informacji o "
+"plikach Cookies."
+
+#: admin/class-ctcc-admin.php:504
+msgid "New Tab"
+msgstr "Nowa zakładka"
+
+#: admin/class-ctcc-admin.php:505
+msgid "Same Tab"
+msgstr "Ta sama zakładka"
+
+#: admin/class-ctcc-admin.php:507
+msgid "Open the More Information page in the same or new tab."
+msgstr "Otwórz stronę Więcej informacji w tej samej lub nowej zakładce."
+
+#: admin/class-ctcc-admin.php:518 public/customizer.php:36
+msgid "Top Bar"
+msgstr "Pasek na górze"
+
+#: admin/class-ctcc-admin.php:519 public/customizer.php:37
+msgid "Bottom Bar"
+msgstr "Pasek na dole"
+
+#: admin/class-ctcc-admin.php:520 public/customizer.php:38
+msgid "Top Left Block"
+msgstr "Lewy górny róg"
+
+#: admin/class-ctcc-admin.php:521 public/customizer.php:39
+msgid "Top Right Block"
+msgstr "Prawy górny róg"
+
+#: admin/class-ctcc-admin.php:522 public/customizer.php:40
+msgid "Bottom Left Block"
+msgstr "Lewy dolny róg"
+
+#: admin/class-ctcc-admin.php:523 public/customizer.php:41
+msgid "Bottom Right Block"
+msgstr "Prawy dolny róg"
+
+#: admin/class-ctcc-admin.php:525
+msgid "Where the notification should appear"
+msgstr "Gdzie powiadomienie powinno się pojawić"
+
+#: admin/class-ctcc-admin.php:532
+msgid ""
+"You can add an optional wrapper class, eg container, here to align the "
+"notification text with the rest of your content"
+msgstr ""
+"Możesz dodać opcjonalną klasę obwaluty - np. kontener - aby uspójnić pole "
+"powiadomień z resztą zawartości Twojej strony"
+
+#: admin/class-ctcc-admin.php:539
+msgid "Deselect this to dequeue the plugin stylesheet"
+msgstr ""
+"Odznacz to pole aby wyłączyć style wtyczki. Pamiętaj, by dodać style do "
+"Twojego szablonu."
+
+#: admin/class-ctcc-admin.php:546
+msgid "Round the corners on the block (doesn't apply to the top or bottom bar)"
+msgstr ""
+"Zaokrągl rogi bloku (nieaplikowalne jeśli używasz opcji paska na górze bądź "
+"na dole strony)"
+
+#: admin/class-ctcc-admin.php:553
+msgid "Add drop shadow to the block (doesn't apply to the top or bottom bar)"
+msgstr ""
+"Dodaj cień do bloku (nieaplikowalne jeśli używasz opcji paska na górze bądź "
+"na dole strony)"
+
+#: admin/class-ctcc-admin.php:560
+msgid "Display the confirmation button with notification text"
+msgstr "pokazuj przycisk akceptacji razem z tekstem"
+
+#: admin/class-ctcc-admin.php:567
+msgid "Remove confirmation button and use 'X' icon instead"
+msgstr "Usuń przycisk akceptacji i wyświetlaj zamiast niego ikonę 'X'"
+
+#: admin/class-ctcc-admin.php:574
+msgid "The text color on the notification"
+msgstr "Kolor tekstu na powiadomieniu"
+
+#: admin/class-ctcc-admin.php:581
+msgid "The background color for the notification"
+msgstr "Kolor tła powiadomienia"
+
+#: admin/class-ctcc-admin.php:588
+msgid "The link color on the notification"
+msgstr "Kolor odnośnika na powiadomieniu"
+
+#: admin/class-ctcc-admin.php:595
+msgid "The text color on the notification button"
+msgstr "Kolor tekstu na przycisku na powiadomieniu"
+
+#: admin/class-ctcc-admin.php:602
+msgid "The background color on the notification button"
+msgstr "Kolor tła przycisku na pasku powiadomienia"
+
+#: admin/class-ctcc-admin.php:607
+msgid "<p>Basic settings</p>"
+msgstr "<p>Ustawienia podstawowe</p>"
+
+#: admin/class-ctcc-admin.php:611
+msgid "<p>Update the content displayed to the user</p>"
+msgstr "<p>Możesz tutaj zaktualizować treści prezentowane dla użytkownika</p>"
+
+#: admin/class-ctcc-admin.php:615
+msgid ""
+"<p>Change the styles here if you like - but it's better in the Customizer</p>"
+msgstr ""
+"<p>Zmieniaj style tutaj wedle Twojej woli - te same ustawienia są dostępne "
+"także w Personalizacji wyglądu</p>"
+
+#: admin/class-ctcc-admin.php:632
+msgid "General"
+msgstr "Ogólne"
+
+#: admin/class-ctcc-admin.php:633
+msgid "Content"
+msgstr "Treść"
+
+#: admin/class-ctcc-admin.php:634
+msgid "Styles"
+msgstr "Stylizacja"
+
+#: admin/class-ctcc-admin.php:656
+msgid "Reset plugin defaults"
+msgstr "Resetuj ustawienia wtyczki"
+
+#: public/customizer.php:43
+msgid "Position and placement."
+msgstr "Pozycja i położenie."
+
+#: public/customizer.php:59
+msgid "Optional wrapper class."
+msgstr "Opcjonalna klasa obwoluty."
+
+#: public/customizer.php:74
+msgid "Enqueue Styles"
+msgstr "Użyj styli predefiniowanych"
+
+#: public/customizer.php:75
+msgid "Deselect this to dequeue the plugin stylesheet."
+msgstr "Odznacz to pole by wyłączyć style dołączone do tej wtyczki."
+
+#: public/customizer.php:91
+msgid "Round the corners on the block."
+msgstr "Zaokrągl rogi na bloku."
+
+#: public/customizer.php:107
+msgid "Add drop shadow to the block."
+msgstr ""
+"Dodaj cień pod blokiem (niedostępne, gdy powiadomienie wyświetlaje jest jako "
+"pasek)."
+
+#: public/customizer.php:123
+msgid "Deselect to float button to right."
+msgstr "Odznacz, by przycisk był równany do prawej."
+
+#: public/customizer.php:139
+msgid "Replace confirmation button with 'X' icon."
+msgstr "Zamień przycisk akceptacji na ikonę 'X'."
+
+#: public/customizer.php:155
+msgid "Text color for your notification bar."
+msgstr "Kolor tekstu na pasku powiadomienia."
+
+#: public/customizer.php:171
+msgid "Background color for your notification bar."
+msgstr "Kolor tła paska powiadomienia."
+
+#: public/customizer.php:187
+msgid "Link color for your notification bar."
+msgstr "Kolor odnośnika na pasku powiadomienia."
+
+#: public/customizer.php:203
+msgid "Text color for your notification bar button."
+msgstr "Kolor tekstu na przycisku na pasku powiadomienia."
+
+#: public/customizer.php:219
+msgid "Background color for your notification bar button."
+msgstr "Kolor tła przycisku na pasku powiadomienia."
+
+#: uk-cookie-consent.php:54
+msgid "Cookie Policy"
+msgstr "Polityka Cookies"
+
+#: uk-cookie-consent.php:55
+msgid ""
+"This site uses cookies - small text files that are placed on your machine to "
+"help the site provide a better user experience. In general, cookies are used "
+"to retain user preferences, store information for things like shopping "
+"carts, and provide anonymised tracking data to third party applications like "
+"Google Analytics. As a rule, cookies will make your browsing experience "
+"better. However, you may prefer to disable cookies on this site and on "
+"others. The most effective way to do this is to disable cookies in your "
+"browser. We suggest consulting the Help section of your browser or taking a "
+"look at <a href=\"http://www.aboutcookies.org\">the About Cookies website</"
+"a> which offers guidance for all modern browsers"
+msgstr ""
+"<p>Polityka cookies sporządzona została zgodnie z obowiązkami wynikającymi z "
+"nowelizacji Prawa Telekomunikacyjnego, które weszły w życie 22 marca 2013 "
+"roku. Obowiązki te podobnie są realizowane w całej Europie wskutek "
+"implementowania dyrektywy europejskiej.</p>\n"
+"<p>Niniejsza polityka cookies dotyczy usług oferowanych w ramach tej strony "
+"(Serwis).<br>\n"
+"Serwis nie zbiera w sposób automatyczny żadnych informacji, z wyjątkiem "
+"informacji zawartych w plikach cookies.</p>\n"
+"<p>Pliki cookies (tzw. ciasteczka) stanowią dane informatyczne, w "
+"szczególności pliki tekstowe, które przechowywane są w urządzeniu końcowym "
+"Użytkownika Serwisu i przeznaczone są do korzystania ze stron internetowych "
+"Serwisu. Cookies zazwyczaj zawierają nazwę strony internetowej, z której "
+"pochodzą, czas przechowywania ich na urządzeniu końcowym oraz unikalny "
+"numer.\n"
+"Podmiotem zamieszczającym na urządzeniu końcowym Użytkownika Serwisu pliki "
+"cookies oraz uzyskującym do nich dostęp jest operator tej strony.</p>\n"
+"<p>Pliki cookies wykorzystywane są w celu:\n"
+"<ul><li>dostosowania zawartości stron internetowych do preferencji "
+"Użytkownika oraz optymalizacji korzystania ze stron internetowych; w "
+"szczególności pliki te pozwalają rozpoznać urządzenie Użytkownika Serwisu i "
+"odpowiednio wyświetlić stronę internetową, dostosowaną do jego "
+"indywidualnych potrzeb;</li>\n"
+"<li>tworzenia statystyk, które pomagają zrozumieć, w jaki sposób Użytkownicy "
+"Serwisu korzystają ze stron internetowych, co umożliwia ulepszanie ich "
+"struktury i zawartości;</li>\n"
+"</ul></p>\n"
+"<p>W ramach Serwisu stosowane są dwa zasadnicze typy plików cookies: sesyjne "
+"(session cookies) oraz stałe (persistent cookies). Cookies sesyjne są "
+"plikami tymczasowymi, które przechowywane są w urządzeniu końcowym "
+"Użytkownika do czasu wylogowania, opuszczenia strony internetowej lub "
+"wyłączenia oprogramowania (przeglądarki internetowej). Stałe pliki cookies "
+"przechowywane są w urządzeniu końcowym Użytkownika przez czas określony w "
+"parametrach plików cookies lub do czasu ich usunięcia przez Użytkownika.</"
+"p>\n"
+"<p>W ramach Serwisu stosowane są następujące rodzaje plików cookies:\n"
+"<ul>\n"
+"<li>niezbędne pliki cookies, umożliwiające korzystanie z usług dostępnych w "
+"ramach Serwisu, np. uwierzytelniające pliki cookies wykorzystywane do usług "
+"wymagających uwierzytelniania w ramach Serwisu;</li>\n"
+"<li>pliki cookies służące do zapewnienia bezpieczeństwa, np. wykorzystywane "
+"do wykrywania nadużyć w zakresie uwierzytelniania w ramach Serwisu;</li>\n"
+"<li>wydajnościowe pliki cookies, umożliwiające zbieranie informacji o "
+"sposobie korzystania ze stron internetowych Serwisu;</li>\n"
+"<li>funkcjonalne pliki cookies, umożliwiające zapamiętanie wybranych przez "
+"Użytkownika ustawień i personalizację interfejsu Użytkownika, np. w zakresie "
+"wybranego języka lub regionu, z którego pochodzi Użytkownik, rozmiaru "
+"czcionki, wyglądu strony internetowej itp.;</li>\n"
+"<li>reklamowe pliki cookies, umożliwiające dostarczanie Użytkownikom treści "
+"reklamowych bardziej dostosowanych do ich zainteresowań.\n"
+"</li>\n"
+"</ul></p>\n"
+"<p>W wielu przypadkach oprogramowanie służące do przeglądania stron "
+"internetowych (przeglądarka internetowa) domyślnie dopuszcza przechowywanie "
+"plików cookies w urządzeniu końcowym Użytkownika. Użytkownicy Serwisu mogą "
+"dokonać w każdym czasie zmiany ustawień dotyczących plików cookies. "
+"Ustawienia te mogą zostać zmienione w szczególności w taki sposób, aby "
+"blokować automatyczną obsługę plików cookies w ustawieniach przeglądarki "
+"internetowej bądź informować o ich każdorazowym zamieszczeniu w urządzeniu "
+"Użytkownika Serwisu. Szczegółowe informacje o możliwości i sposobach obsługi "
+"plików cookies dostępne są w ustawieniach oprogramowania (przeglądarki "
+"internetowej).</p>\n"
+"<p>Operator Serwisu informuje, że ograniczenia stosowania plików cookies "
+"mogą wpłynąć na niektóre funkcjonalności dostępne na stronach internetowych "
+"Serwisu.</p>\n"
+"<p>Pliki cookies zamieszczane w urządzeniu końcowym Użytkownika Serwisu i "
+"wykorzystywane mogą być również przez współpracujących z operatorem Serwisu "
+"reklamodawców oraz partnerów.</p>\n"
+"<p>Więcej informacji na temat plików cookies dostępnych jest pod adresem <a "
+"href=\"http://www.wszystkoociasteczkach.pl\">www.wszystkoociasteczkach.pl</"
+"a> lub w sekcji Pomoc w menu przeglądarki internetowej.</p>"
+
+#. Plugin URI of the plugin/theme
+msgid "http://catapultthemes.com/cookie-consent/"
+msgstr "http://catapultthemes.com/cookie-consent/"
+
+#. Description of the plugin/theme
+msgid "The only cookie consent plugin you'll ever need."
+msgstr ""
+"Jedyna wtyczka zgody na pliki Cookies jaką kiedykolwiek będziesz potrzebować."
+
+#. Author of the plugin/theme
+msgid "Catapult_Themes"
+msgstr "Catapult_Themes"
+
+#. Author URI of the plugin/theme
+msgid "http://catapultthemes.com/"
+msgstr "http://catapultthemes.com/"
+
+#~ msgid "No problem"
+#~ msgstr "Akceptuję"
+
+#~ msgid "Read more."
+#~ msgstr "Czytaj całość"
+
+#~ msgid "UK Cookie Consent"
+#~ msgstr "Zgoda na Cookies PL"
+
+#~ msgid "Click to toggle"
+#~ msgstr "Kliknij aby przełączyć"
+
+#~ msgid "Did this plugin help you?"
+#~ msgstr "Czy ta wtyczka pomogła?"
+
+#~ msgid ""
+#~ "If this plugin helped you out in your project, please show your support:"
+#~ msgstr "Jeśli ta wtyczka pomogła Ci w projekcie, okaż swoje poparcie:"
+
+#~ msgid "Rate it"
+#~ msgstr "Oceń"
+
+#~ msgid "Tweet it"
+#~ msgstr "Tweetnij"
+
+#~ msgid "Other plugins you might like"
+#~ msgstr "Inne nasze wtyczki"
+
+#~ msgid "If you liked this plugin, you may care to try the following:"
+#~ msgstr "Jeśli polubiłeś tą wtyczkę, może też spodobają ci się:"
+
+#~ msgid "Slide out tab"
+#~ msgstr "Wysuwana zakładka"
+
+#~ msgid "Display a sliding tab for marketing, promotional or other content."
+#~ msgstr ""
+#~ "Wyświetla wysuwaną zakładkę dla treści marketingowych, promocyjnych lub "
+#~ "innych."
+
+#~ msgid ""
+#~ "http://www.ico.gov.uk/for_organisations/"
+#~ "privacy_and_electronic_communications/the_guide/cookies.aspx"
+#~ msgstr ""
+#~ "http://www.ico.gov.uk/for_organisations/"
+#~ "privacy_and_electronic_communications/the_guide/cookies.aspx"
+
+#~ msgid "Information Commissioner's Office Guidance on Cookies"
+#~ msgstr ""
+#~ "Wytyczne kancelarii brytyjskiego komisarza ds. Informacji odnośnie plików "
+#~ "Cookies"
+
+#~ msgid "http://www.aboutcookies.org/default.aspx"
+#~ msgstr "http://wszystkoociasteczkach.pl/"
+
+#~ msgid "AboutCookies.org"
+#~ msgstr "WszystkoOCiasteczkach.pl"
+
+#~ msgid "Our interpretation of the guidance"
+#~ msgstr "Nasza interpretacja wskazówek (po angielsku)"
+
+#~ msgid "Support"
+#~ msgstr "Wsparcie"
+
+#~ msgid "Latest from the support forum"
+#~ msgstr "Najnowsze z naszego forum wsparcia"
+
+#~ msgid "Check out the forum"
+#~ msgstr "Zajrzyj na nasze forum"
+
+#~ msgid "cookie-policy"
+#~ msgstr "polityka-cookies"
+
+#~ msgid ""
+#~ "Your Cookies Policy page is <a href=\"%s\">here</a>. You may wish to "
+#~ "create a menu item or other link on your site to this page."
+#~ msgstr ""
+#~ "Twoja strona z polityką Cookies jest <a href=\"%s\">tutaj</a>. Możesz jej "
+#~ "używać w menu lub jako odnośnik na swojej stronie."
+
+#~ msgid "Info page permalink"
+#~ msgstr "Bezpośredni odnośnik do strony z informacjami"
+
+#~ msgid "Bar colour"
+#~ msgstr "Kolor paska"
+
+#~ msgid ""
+#~ "You can just use these settings as they are or update the text as you "
+#~ "wish. We recommend keeping it brief."
+#~ msgstr ""
+#~ "Możesz użyć ponizszych ustawień takimi jakimi są lub zaktualizować ich "
+#~ "tekst jeśli wolisz."
+
+#~ msgid ""
+#~ "The plug-in automatically creates a page called \"Cookie Policy\" and "
+#~ "sets the default More Info link to yoursitename.com/cookie-policy."
+#~ msgstr ""
+#~ "Ta wtyczka automatycznie tworzy stronę nazwaną \"Polityka Cookies\" i "
+#~ "ustawia ją jako domyślną dla pola Więcej informacji"
+
+#~ msgid ""
+#~ "If you find the page hasn't been created, hit the Save Changes button on "
+#~ "this page."
+#~ msgstr ""
+#~ "Jeśli uważasz, że strona nie została utworzona, wciśnij przycisk Zapisz "
+#~ "zmiany na tej stronie."
+
+#~ msgid ""
+#~ "If you would like to change the permalink, just update the Info page "
+#~ "permalink setting, e.g. enter \"?page_id=4\" if you are using the default "
+#~ "permalink settings (and 4 is the id of your new Cookie Policy page)."
+#~ msgstr ""
+#~ "Jeśli chcesz zmienić bezpośredni odnośnik wystarczy, że zaktualizujesz "
+#~ "ustawienie bezpośredniego odnośnika do strony z informacjami, np. "
+#~ "wprowadź adres \"?page_id=4\" jeśli używasz domyślnych ustawień "
+#~ "bezpośrednich odnośników oraz strona z Polityką Cookie ma ID 4."
+
+#~ msgid ""
+#~ "For any support queries, please post on the <a href=\"%s\">WordPress "
+#~ "forum</a>."
+#~ msgstr ""
+#~ "W razie potrzeby wsparcia prosimy o umieszczanie postów na <a href=\"%s"
+#~ "\">forum WordPress</a>."
+
+#~ msgid ""
+#~ "And if this plug-in has been helpful to you, then <a href=\"%s\">please "
+#~ "rate it</a>."
+#~ msgstr ""
+#~ "Jeśli ta wtyczka jest dla Ciebie pomocna, <a href=\"%s\">prosimy o jej "
+#~ "ocenę</a>."
+
+#~ msgid "Top"
+#~ msgstr "Na górze"
+
+#~ msgid "http://catapultdesign.co.uk/plugin/uk-cookie-consent/"
+#~ msgstr "http://catapultdesign.co.uk/plugin/uk-cookie-consent/"
+
+#~ msgid ""
+#~ "Simple plug-in to help compliance with the UK interpretation of the EU "
+#~ "regulations regarding usage of website cookies. A user to your site is "
+#~ "presented with a clear yet unobtrusive notification that the site is "
+#~ "using cookies and may then acknowledge and dismiss the notification or "
+#~ "click to find out more. The plug-in does not disable cookies on your site "
+#~ "or prevent the user from continuing to browse the site - it comes with "
+#~ "standard wording on what cookies are and advice on how to disable them in "
+#~ "the browser. The plug-in follows the notion of \"implied consent\" as "
+#~ "described by the UK's Information Commissioner and makes the assumption "
+#~ "that most users who choose not to accept cookies will do so for all "
+#~ "websites."
+#~ msgstr ""
+#~ "Prosta wtyczka wprowadzająca zgodność z polskimi przepisami wykładni UE "
+#~ "dotyczących wykorzystania stron internetowych plików cookie. "
+#~ "Użytkownikowi przedstawiana jest jasne i przejrzyste powiadomienie, że "
+#~ "witryna używa plików cookie. Powiadomienie posiada funkcjonalność "
+#~ "potwierdzenia oraz link do strony, aby dowiedzieć się więcej. Ta wtyczka "
+#~ "nie wyłącza użytkowania plików cookie na twojej witrynie oraz nie "
+#~ "powstrzymuje użytkownika przed kontynuowaniem przeglądania strony - "
+#~ "ogranicza się do standardowych formuł, co to są pliki cookies i radzi, "
+#~ "jak je wyłączyć w przeglądarce. Wtyczka przyjmuje pojęcie \"domniemanej "
+#~ "zgody\" na wykorzystanie plików cookie - zakłada, że większość "
+#~ "użytkowników, którzy nie zdecydują się na akceptowanie plików cookie "
+#~ "będzie je blokować dla wszystkich stron."

@@ -1,0 +1,12 @@
+<wpml-config>
+	<admin-texts>
+		<key name="ctcc_content_settings">
+			<key name="heading_text"/>
+			<key name="notification_text"/>
+			<key name="accept_text"/>
+			<key name="more_info_text"/>
+			<key name="more_info_page"/>
+			<key name="more_info_url"/>
+	    </key>
+	</admin-texts>
+</wpml-config>
